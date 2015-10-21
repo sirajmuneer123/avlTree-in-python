@@ -13,6 +13,7 @@ def main():
 	print tree
 	print 'avlTree:'
 	printTree(tree)
+	print '\nHeight of the tree is ',tree[1]
 	
 def printTree(tree):
 	if len(tree)!=0:
